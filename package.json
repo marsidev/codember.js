@@ -1,0 +1,19 @@
+{
+  "author": {
+		"name": "Luis Marsiglia",
+		"email": "marsiglia.business@gmail.com"
+	},
+	"private": true,
+	"name": "codember-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+		"solutions/*"
+	],
+	"scripts": {
+		"solution-01": "pnpm run --filter=challenge-01 start"
+	},
+  "keywords": ["codember", "challenge"],
+  "packageManager": "pnpm@7.14.2",
+	"type": "module"
+}
