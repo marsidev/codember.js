@@ -13,7 +13,6 @@
 	"scripts": {
 		"solution-01": "pnpm run --filter=challenge-01 start"
 	},
-  "keywords": ["codember", "challenge"],
   "packageManager": "pnpm@7.14.2",
 	"type": "module"
 }
