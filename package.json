@@ -11,7 +11,8 @@
 		"solutions/*"
 	],
 	"scripts": {
-		"solution-01": "pnpm run --filter=challenge-01 start"
+		"solution-01": "pnpm run --filter=challenge-01 start",
+		"solution-02": "pnpm run --filter=challenge-02 start"
 	},
   "packageManager": "pnpm@7.14.2",
 	"type": "module"
