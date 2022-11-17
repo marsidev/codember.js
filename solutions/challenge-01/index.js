@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises"
 
 const requiredKeys = ['usr', 'eme', 'psw', 'age', 'loc', 'fll']
-const plainText = await readFile('users.txt', 'utf8')
+const plainText = await readFile('./users.txt', 'utf8')
 const usersData = plainText.split('\n\n')
 const usersDataFormatted = usersData.map(u => u.split('\n').join(' '))
 
