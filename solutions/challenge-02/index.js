@@ -9,16 +9,17 @@ const decode = (encodedPhrase) => {
 			let	 letter = ''
 			const lastTwo = encodedWord.substr(-2)
 			const lastThree = encodedWord.substr(-3)
-		
-			if (lastTwo >= 96 && lastTwo <= 99) {
+
+			if (lastTwo >= 32 && lastTwo < 100) {
 				letter = String.fromCharCode(lastTwo)
 				encodedWord = encodedWord.substring(0, encodedWord.length - 2)
-			} else {
+			} else if (lastThree >= 100 && lastThree <= 255) {
 				letter = String.fromCharCode(lastThree)
 				encodedWord = encodedWord.substring(0, encodedWord.length - 3)
 			}
-		
+
 			decodedPhrase += letter
+			console.log({lastTwo, lastThree, letter, decodedPhrase})
 		} while (encodedWord.length > 0)
 	})
 

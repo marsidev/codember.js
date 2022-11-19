@@ -4,7 +4,8 @@
   "version": "1.0.0",
 	"scripts": {
 		"solution-01": "node solutions/challenge-01/index.js",
-		"solution-02": "node solutions/challenge-02/index.js"
+		"solution-02": "node solutions/challenge-02/index.js",
+		"solution-03": "node solutions/challenge-03/index.js"
 	},
 	"type": "module"
 }
