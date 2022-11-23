@@ -11,6 +11,7 @@ describe('isValidPassword', () => {
 		expect(isValidPassword(12345)).toBe(false)
 		expect(isValidPassword(57775)).toBe(false)
 		expect(isValidPassword(55432)).toBe(false)
+		expect(isValidPassword('abc55')).toBe(false)
 	})
 })
 
@@ -24,5 +25,6 @@ describe('isValidPassword2', () => {
 		expect(isValidPassword2(12345)).toBe(false)
 		expect(isValidPassword2(57775)).toBe(false)
 		expect(isValidPassword2(55432)).toBe(false)
+		expect(isValidPassword('abc55')).toBe(false)
 	})
 })
