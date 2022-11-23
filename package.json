@@ -1,11 +1,16 @@
 {
 	"private": true,
 	"name": "codember-solutions",
-  "version": "1.0.0",
+	"version": "1.0.0",
 	"scripts": {
 		"solution-01": "node solutions/challenge-01/index.js",
 		"solution-02": "node solutions/challenge-02/index.js",
-		"solution-03": "node solutions/challenge-03/index.js"
+		"solution-03": "node solutions/challenge-03/index.js",
+		"solution-04": "node solutions/challenge-04/index.js",
+		"test": "vitest"
 	},
-	"type": "module"
+	"type": "module",
+	"devDependencies": {
+		"vitest": "^0.25.3"
+	}
 }
