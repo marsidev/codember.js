@@ -6,6 +6,7 @@
 | 2 | [Here](solutions/challenge-02/README.md) | [Here](solutions/challenge-02/index.js) |
 | 3 | [Here](solutions/challenge-03/README.md) | [Here](solutions/challenge-03/index.js) |
 | 4 | [Here](solutions/challenge-04/README.md) | [Here](solutions/challenge-04/index.js) |
+| 5 | [Here](solutions/challenge-05/README.md) | [Here](solutions/challenge-05/index.js) |
 
 ### Available scripts
 
@@ -16,3 +17,5 @@
 `npm run solution-03`
 
 `npm run solution-04`
+
+`npm run solution-05`

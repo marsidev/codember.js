@@ -7,6 +7,7 @@
 		"solution-02": "node solutions/challenge-02/index.js",
 		"solution-03": "node solutions/challenge-03/index.js",
 		"solution-04": "node solutions/challenge-04/index.js",
+		"solution-05": "node solutions/challenge-05/index.js",
 		"test": "vitest"
 	},
 	"type": "module",
